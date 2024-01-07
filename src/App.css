@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background: #171717;
+  font-family: 'Poppins', sans-serif;
+}
+
+.upperNav{
+  margin-top: 2rem;
+  width: 100%;
+  height: 3rem;
+  background: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upperNav ul{
+  list-style: none;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.upperNav ul li{
+  padding-right: 2rem;
+  color: white;
+  transition: .5s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.upperNav ul li:hover{
+  cursor: pointer;
+  color: rgb(167, 164, 164);
+}
+
+a{
+  color: white;
+  text-decoration-line: none;
+  transition: .5s ease;
+}
+
+a:hover{
+  color: rgb(167, 164, 164);
+  cursor: pointer;
+}
+
+.app-footer{
+  width: 100%;
+  height: 2rem;
+  /* background: red; */
+  text-align: center;
+}
+
+.app-footer P{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Media Qury--------------------------------------> */
+
+@media only screen and (max-width: 600px){
+  .upperNav ul{
+    font-size: 1rem;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  .upperNav{
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    background: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 520px){
+  .upperNav ul{
+    font-size: .8rem;
+  }
+}

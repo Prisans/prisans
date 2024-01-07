@@ -1,0 +1,77 @@
+.footer-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    background: #171717;
+    
+}
+
+.footer-container button{
+    background: none;
+    border: none;
+}
+
+.nav-section{
+    position: absolute;
+    top: 0;
+}
+
+
+.contact-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 8rem;
+    height: 20rem;
+    flex-direction: column;
+    background: none;
+}
+
+
+.footer-react-icons{
+    font-size: 2rem;
+    color: white;
+    transition: .5s ease;
+}
+
+.footer-react-icons.outline{
+    margin-top: 2.4rem;
+}
+
+.footer-react-icons.telegram:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.footer-react-icons.phone:hover{
+    color: rgb(15, 241, 165);
+    cursor: pointer;
+}
+
+.footer-react-icons.outline:hover{
+    cursor: pointer;
+    color: #9c9b9b;
+}
+
+.footer-react-icons.telegram{
+    margin-bottom: 2rem;
+}
+
+.footer-theme{
+    position: relative;
+    bottom: 4rem;
+}
+
+
+@media only screen and (max-width: 600px){
+    .footer-react-icons{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+

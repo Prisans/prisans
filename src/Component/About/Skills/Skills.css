@@ -1,0 +1,85 @@
+.skill-container{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-title{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.skill-loader{
+    width: 100%;
+    height: 2rem;
+    background: #191919;
+    border-radius: 10px;
+    
+}
+
+.loader-80{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 80%;
+    height: 2rem;
+    background: #c70039;
+    border-radius: 10px;
+}
+
+.loader-90{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 90%;
+    height: 2rem;
+    background: #c70039;
+    border-radius: 10px;
+}
+
+.loader-95{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 95%;
+    height: 2rem;
+    background: #c70039;
+    border-radius: 10px;
+}
+.loader-75{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 75%;
+    height: 2rem;
+    background: #c70039;
+    border-radius: 10px;
+}
+.loader-97{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 97%;
+    height: 2rem;
+    background: #c70039;
+    border-radius: 10px;
+}
+.loader-85{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 85%;
+    height: 2rem;
+    background: #c70039;
+    border-radius: 10px;
+}
+.loader-70{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 70%;
+    height: 2rem;
+    background: #c70039;
+    border-radius: 10px;
+}
