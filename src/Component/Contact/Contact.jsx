@@ -51,10 +51,10 @@ const Contact = () => {
       <div className="contact-section">
         <p className="contact-msg">Message Me</p>
         <form onSubmit={handleSubmit} className='contact-form' >
-        <input type="text" placeholder='Enter Name' value={name} onChange={(e)=>setName(e.target.value)}/>
-        <input type="text" placeholder='Field or Subject' value={subject} onChange={(e)=>setSubject (e.target.value)}/>
-        <input type="text" placeholder='Enter Email' value={email} onChange={(e)=>setEmail(e.target.value)}/>
-        <textarea placeholder='Your Message' cols="30" rows="10" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
+        <input type="text" placeholder='Enter Name' value={name} onChange={(e)=>setName(e.target.value)} required/>
+        <input type="text" placeholder='Field or Subject' value={subject} onChange={(e)=>setSubject (e.target.value)} required/>
+        <input type="text" placeholder='Enter Email' value={email} onChange={(e)=>setEmail(e.target.value)} required/>
+        <textarea placeholder='Your Message' cols="30" rows="10" value={message} onChange={(e)=>setMessage(e.target.value)} required></textarea>
         <button className='btn submit-btn' >Submit</button>
        
         </form>
