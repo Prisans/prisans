@@ -2,39 +2,67 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { FaGithub, FaExternalLinkAlt, FaFigma } from 'react-icons/fa'
 import '../styles/Projects.css'
+import home from '../assets/estate.png'
+import halo from '../assets/halo.png'
+import panda from '../assets/panda.png'
+import photoOne from '../assets/photo-one.png'
+import photo from '../assets/photo.png'
+import tomato from '../assets/tomato.png'
 
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with user authentication, payment integration, and admin dashboard. Built with React, Node.js, and MongoDB.",
-      image: "/path-to-ecommerce-image.jpg",
+      title: "Home Finder",
+      description: "A real estate website with advanced search features, property listings, and user authentication. Built with React, Node.js, and MongoDB.",
+      image: home,
+      tags: ["React", "Node.js", "MongoDB"],
+      links: {
+        live: "https://real-estate-sooty-eta.vercel.app/",
+      }
+    },
+    {
+      title: "Dental Website",
+      description: "A dental care website with appointment scheduling, patient management, and online payment integration.",
+      image: halo,
+      tags: ["React", "Firebase"],
+      links: {
+        live: "https://halo-dental.vercel.app/",
+      }
+    },
+    {
+      title: "Lens Life",
+      description: "A portfolio website for photographers with image galleries, client testimonials, and contact information.",
+      image: photo,
+      tags: ["React", "Framer Motion"],
+      links: {
+        live: "https://demo-photo.vercel.app/",
+      }
+    },
+    {
+      title: "PandaPay",
+      description: "A secure online payment platform with transaction tracking and user authentication.",
+      image: panda,
+      tags: ["React", "GSAP"],
+      links: {
+        live: "https://pandapay-eight.vercel.app/",
+      }
+    },
+    {
+      title: "LuxeFrame",
+      description: "A portfolio website for photographers with image galleries, client testimonials, and contact information.",
+      image: photoOne,
+      tags: ["React", "Framer Motion" , "GSAP"],
+      links: {
+        live: "https://demo-photo-two.vercel.app/",
+      }
+    },
+    {
+      title: "Tomato Restaurant",
+      description: "A restaurant website with online ordering, menu management, and customer reviews.",
+      image: tomato,
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
       links: {
-        github: "https://github.com/username/project",
-        live: "https://project-demo.com",
-        design: "https://figma.com/file/..."
-      }
-    },
-    {
-      title: "Task Management App",
-      description: "Real-time task management application with team collaboration features and progress tracking. Includes drag-and-drop functionality.",
-      image: "/path-to-task-app-image.jpg",
-      tags: ["React", "Firebase", "Material-UI", "Redux"],
-      links: {
-        github: "https://github.com/username/project",
-        live: "https://project-demo.com"
-      }
-    },
-    {
-      title: "AI Chat Application",
-      description: "Modern chat application powered by artificial intelligence for smart conversations. Features real-time messaging and voice inputs.",
-      image: "/path-to-chat-app-image.jpg",
-      tags: ["Next.js", "OpenAI API", "Socket.io", "TypeScript"],
-      links: {
-        github: "https://github.com/username/project",
-        live: "https://project-demo.com",
-        design: "https://figma.com/file/..."
+        live: "https://tomato-omega.vercel.app/",
       }
     }
   ]

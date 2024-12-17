@@ -3,11 +3,12 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { FaGithub, FaLinkedin, FaArrowRight } from 'react-icons/fa'
 import '../styles/Home.css'
+import prisansImage from '../assets/prisans.jpeg'
 
 const Home = () => {
   const socialLinks = [
     { icon: FaGithub, url: 'https://github.com/prisans', label: 'GitHub' },
-    { icon: FaLinkedin, url: 'https://linkedin.com/in/prisans', label: 'LinkedIn' }
+    { icon: FaLinkedin, url: 'https://www.linkedin.com/in/prisans/', label: 'LinkedIn' }
   ]
 
   return (
@@ -93,7 +94,7 @@ const Home = () => {
           transition={{ delay: 0.3, duration: 0.5 }}
         >
           <div className="image-wrapper glass">
-            <img src="/path-to-your-image.jpg" alt="Developer" />
+            <img src={prisansImage} alt="Prisans - Full Stack Developer" />
             <div className="image-overlay"></div>
           </div>
           <div className="pattern-grid"></div>
