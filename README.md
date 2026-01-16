@@ -2,7 +2,7 @@
 
 * I’m a MERN Stack Developer who enjoys building modern, fast, and responsive web apps with clean code and smart design.
 
-🔧 Tech Stack & Tools
+# Tech Stack & Tools
 
 * Frontend: React.js, HTML, CSS, JavaScript, Tailwind CSS, Redux
 * Backend: Node.js, Express.js, MongoDB, Mongoose
@@ -17,4 +17,4 @@
 * API Development
 * Code Snippets & Learning
 
-# ->Let’s connect, code, and build something awesome together! 🚀
+# ->Let’s connect, code, and build something awesome together! 
