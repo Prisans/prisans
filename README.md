@@ -1,6 +1,6 @@
 # Hello, World!
 
-* I’m a MERN Stack Developer who enjoys building modern, fast, and responsive web apps with clean code and smart design.
+* I’m a Software Developer who loves to play with code.
 
 # Tech Stack & Tools
 
